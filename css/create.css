@@ -1,0 +1,112 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+  .content-1 {
+    padding: 0 20px;
+  }
+  .content-1 .heading {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .content-1 .sub-heading {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #898989;
+  }
+  .content-1 .username {
+    margin-top: 25px;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #898989;
+  }
+  .username::placeholder {
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: #b3b1b0;
+  }
+  .content-1 .email {
+    margin-top: 16px;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #898989;
+  }
+  .email::placeholder {
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: #b3b1b0;
+  }
+  .content-1 .pass {
+    margin-top: 16px;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #898989;
+  }
+  .pass::placeholder {
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: #b3b1b0;
+  }
+  .content-1 .checkbox {
+    display: flex;
+  }
+  .checkbox p {
+    padding-left: 10px;
+    margin-top: 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17px;
+    color: #b3b1b0;
+  }
+  .checkbox p span {
+    color: #fd9340;
+  }
+  .content-1 .login {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    color: #1a1919;
+  }
+  .login span {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+    color: #fd9340;
+  }
+  .btn-create {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+    background: #fd9340;
+    border-radius: 30.5px;
+    border: none;
+  }
+}

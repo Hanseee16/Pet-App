@@ -1,0 +1,65 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+  .content-1 {
+    padding: 0 20px;
+  }
+  .heading {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .sub-heading {
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #898989;
+  }
+  .content-1 .email {
+    margin-top: 28px;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #898989;
+  }
+  .email::placeholder {
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: #b3b1b0;
+  }
+  .login {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .login span {
+    color: #fd9340;
+  }
+  .btn-next {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+    background: #fd9340;
+    border-radius: 30.5px;
+    border: none;
+  }
+}

@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+  .content-1 {
+    margin: 0 20px;
+  }
+  .content-1 .judul {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .content-1 .sub-heading {
+    color: #898989;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+  .content-1 .swiper-slide img {
+    width: 100%;
+  }
+  .content-1 .swiper-pagination {
+    margin-top: 100px;
+  }
+  .content-1 .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    border: 2px solid #fd9340;
+    background: none;
+  }
+  .content-1 .swiper-pagination-bullet-active {
+    background: #fd9340;
+  }
+  .btn-get {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #fd9340;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    width: 100%;
+  }
+}

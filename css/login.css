@@ -1,0 +1,104 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+  .content-1 {
+    padding: 0 20px;
+  }
+  .content-1 .heading {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .content-1 .sub-heading {
+    color: #898989;
+    font-size: 17px;
+  }
+  .content-1 .email {
+    margin-top: 30px;
+    border: 1px solid #e5e4e3;
+    border-radius: 16px;
+    height: 60px;
+    width: 100%;
+  }
+  .email::placeholder {
+    color: #b3b1b0;
+    font-size: 14px;
+    padding-left: 24px;
+  }
+  .content-1 .pass {
+    margin-top: 20px;
+    border: 1px solid #e5e4e3;
+    border-radius: 16px;
+    height: 60px;
+    width: 100%;
+  }
+  .pass::placeholder {
+    color: #b3b1b0;
+    font-size: 14px;
+    padding-left: 24px;
+  }
+  .forget {
+    text-align: right;
+    color: #fd9340;
+  }
+  .content-1 .button-1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-1 .btn-google {
+    height: 60px;
+    width: 150px;
+    border: 1px solid #e5e4e3;
+    border-radius: 16px;
+  }
+  .btn-google img {
+    padding-left: 34px;
+    padding-top: 17px;
+  }
+  .button-1 .btn-fb {
+    height: 60px;
+    width: 150px;
+    border: 1px solid #e5e4e3;
+    border-radius: 16px;
+  }
+  .btn-fb img {
+    padding-left: 42px;
+    padding-top: 18px;
+  }
+  .content-1 .create {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .create span {
+    font-weight: 700;
+    font-size: 17px;
+    color: #fd9340;
+  }
+  .btn-login {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+    background: #fd9340;
+    border-radius: 30.5px;
+    border: none;
+  }
+}
